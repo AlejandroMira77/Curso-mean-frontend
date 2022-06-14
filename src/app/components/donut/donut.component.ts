@@ -1,4 +1,4 @@
-import { Component, Input, SimpleChanges  } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges  } from '@angular/core';
 import { ChartData } from 'chart.js';
 
 @Component({
@@ -7,7 +7,7 @@ import { ChartData } from 'chart.js';
   styles: [
   ]
 })
-export class DonutComponent {
+export class DonutComponent implements OnChanges {
 
   @Input('titleDonut') title: string = 'sin título';
   @Input('labelDonut') labelsDonuts: string[] = [ 'Download Sales', 'In-Store Sales', 'Mail-Order Sales' ];
