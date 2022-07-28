@@ -9,14 +9,16 @@
 }
   
 .login-box {
-    width: 400px;
+    // width: 400px;
     margin: 0 auto;
 }
+
 .login-box .footer {
     width: 100%;
     left: 0px;
     right: 0px;
 }
+
 .login-box .social {
     display: block;
     margin-bottom: 30px;
@@ -30,8 +32,13 @@
     padding: 0px;
     margin-top: 0px;
 }
+
 .login-sidebar .login-box {
     right: 0px;
     position: absolute;
     height: 100%;
+}
+
+.form-group {
+    margin-bottom: 10px;
 }
